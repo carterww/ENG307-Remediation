@@ -29,9 +29,9 @@ window.addEventListener('DOMContentLoaded', () => {
 })
 
 function LOL(id) {
-    document.getElementById(id).style.marginLeft = "500px";
+    document.getElementById(id).style.display = "none";
 }
 
 function LOLfix(id) {
-    document.getElementById(id).style.marginLeft = "0px";
+    document.getElementById(id).style.display = "block";
 }
