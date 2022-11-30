@@ -28,10 +28,16 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 })
 
-function LOL(id) {
-    document.getElementById(id).style.display = "none";
+function LOL(id, img) {
+    l = document.getElementById(id);
+    l.src = img;
+    l.style.height = '400px'
+    l.style.width = "100%"
+    
 }
 
-function LOLfix(id) {
-    document.getElementById(id).style.display = "block";
+function LOLfix(id, img) {
+    l = document.getElementById(id);
+    l.src = img;
+    l.style.height = 'auto'
 }
